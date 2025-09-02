@@ -47,19 +47,19 @@ The tool features a responsive UI with a password visibility toggle, a copy-to-c
 
 1. **Initial State**  
    UI with no password entered; strength meter grayed out and "Enter a password" message displayed.
-
-2. **Weak Password**  
+   ![Initial State](assets/Screenshot1.png)
+3. **Weak Password**  
    Shows a weak password (e.g., "passwod") with one bar filled in red and suggestions highlighted in gray except for lowercase letters.
-
-3. **Strong Password**  
+   ![Weak Password](assets/Screenshot2.png)
+5. **Strong Password**  
    Displays a strong password (e.g., "Passw0rd!2023") with four bars filled in light green and most suggestions highlighted in green.
-
-4. **Common Password Warning**  
+   ![Strong Password](assets/Screenshot3.png)
+7. **Common Password Warning**  
    Shows a common password (e.g., "password") with a red warning and one bar filled in red.
-
-5. **Copy Feedback**  
+   ![Common Password](assets/Screenshot4.png)
+9. **Copy Feedback**  
    After clicking "Copy", the button text changes to "Copied!" with a green background.
-
+   ![Copy Feedback](assets/Screenshot5.png)
 ---
 
 ## Project Structure
